@@ -12,5 +12,5 @@ GAME
 	"version"		"1"
 	"author"		"Valve"
 	"website"		"https://steamcommunity.com/sharedfiles/filedetails/?id=2201183807"
-	"builtin"		""
+	"builtin"		"0"
 }
