@@ -11,6 +11,6 @@ GAME
 	"image"			"swarm/ObjectivePics/oblandingelev"
 	"version"		"1"
 	"author"		"Valve"
-	"website"		"https://steamcommunity.com/sharedfiles/filedetails/?id=2201183807""
+	"website"		"https://steamcommunity.com/sharedfiles/filedetails/?id=2201183807"
 	"builtin"		"0"
 }
