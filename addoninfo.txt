@@ -1,0 +1,15 @@
+// The addoninfo.txt file is a metadata file that is required by all Source Engine Add-ons. 
+ 
+"AddonInfo"
+{
+     addonSteamAppID         563560            
+     addontitle              "Reversed Jacob's Rest"
+     addonversion            1.0
+     addontagline            ""
+     addonauthor             "Dmitriy"
+     addonSteamGroupName     "" 
+     addonauthorSteamID      ""
+     addonContent_Campaign   1 	            
+     addonURL0               ""
+     addonDescription        "Play Jacob's Rest in reverse order, each map is played from end to start"
+}
