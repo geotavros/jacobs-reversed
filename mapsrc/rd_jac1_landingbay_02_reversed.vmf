@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7397"
-	"mapversion" "3627"
+	"mapversion" "3636"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -50,7 +50,7 @@ viewsettings
 world
 {
 	"id" "394754"
-	"mapversion" "3627"
+	"mapversion" "3636"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -80967,11 +80967,11 @@ entity
 	"flinchablesp" "1"
 	"freezablesp" "1"
 	"HealthScale" "1"
-	"MaxLiveAliens" "2"
+	"MaxLiveAliens" "4"
 	"maxoffset" "0 0 0"
 	"minoffset" "0 0 0"
 	"NearDistance" "740"
-	"NumAliens" "4"
+	"NumAliens" "16"
 	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
@@ -81010,7 +81010,7 @@ entity
 	"maxoffset" "0 0 0"
 	"minoffset" "0 0 0"
 	"NearDistance" "740"
-	"NumAliens" "6"
+	"NumAliens" "12"
 	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
@@ -81045,11 +81045,11 @@ entity
 	"flinchablesp" "1"
 	"freezablesp" "1"
 	"HealthScale" "1"
-	"MaxLiveAliens" "2"
+	"MaxLiveAliens" "8"
 	"maxoffset" "0 0 0"
 	"minoffset" "0 0 0"
 	"NearDistance" "740"
-	"NumAliens" "4"
+	"NumAliens" "20"
 	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
@@ -81076,7 +81076,7 @@ entity
 {
 	"id" "3094876"
 	"classname" "trigger_once"
-	"origin" "-6543.99 212 952"
+	"origin" "-5792 848 952"
 	"spawnflags" "16"
 	"StartDisabled" "0"
 	connections
@@ -81089,10 +81089,10 @@ entity
 		side
 		{
 			"id" "156439"
-			"plane" "(-6160 196 1072) (-6928 196 1072) (-6928 228 1072)"
+			"plane" "(-5720 752 1072) (-5864 752 1072) (-5864 944 1072)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.5"
-			"vaxis" "[1 0 0 -20] 0.5"
+			"uaxis" "[0 1 0 -8] 0.5"
+			"vaxis" "[1 0 0 -12] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
 			"smoothing_groups" "0"
@@ -81100,10 +81100,10 @@ entity
 		side
 		{
 			"id" "156438"
-			"plane" "(-6160 228 832) (-6928 228 832) (-6928 196 832)"
+			"plane" "(-5720 944 832) (-5864 944 832) (-5864 752 832)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.5"
-			"vaxis" "[1 0 0 -20] 0.5"
+			"uaxis" "[0 1 0 -8] 0.5"
+			"vaxis" "[1 0 0 -12] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
 			"smoothing_groups" "0"
@@ -81111,9 +81111,9 @@ entity
 		side
 		{
 			"id" "156437"
-			"plane" "(-6160 196 832) (-6928 196 832) (-6928 196 1072)"
+			"plane" "(-5720 752 832) (-5864 752 832) (-5864 752 1072)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[-1 0 0 20] 0.5"
+			"uaxis" "[-1 0 0 12] 0.5"
 			"vaxis" "[0 0 -1 9] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -81122,9 +81122,9 @@ entity
 		side
 		{
 			"id" "156436"
-			"plane" "(-6928 228 832) (-6160 228 832) (-6160 228 1072)"
+			"plane" "(-5864 944 832) (-5720 944 832) (-5720 944 1072)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[-1 0 0 20] 0.5"
+			"uaxis" "[-1 0 0 12] 0.5"
 			"vaxis" "[0 0 -1 9] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -81133,9 +81133,9 @@ entity
 		side
 		{
 			"id" "156435"
-			"plane" "(-6928 196 832) (-6928 228 832) (-6928 228 1072)"
+			"plane" "(-5864 752 832) (-5864 944 832) (-5864 944 1072)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.5"
+			"uaxis" "[0 1 0 -8] 0.5"
 			"vaxis" "[0 0 -1 9] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -81144,9 +81144,9 @@ entity
 		side
 		{
 			"id" "156434"
-			"plane" "(-6160 228 832) (-6160 196 832) (-6160 196 1072)"
+			"plane" "(-5720 944 832) (-5720 752 832) (-5720 752 1072)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.5"
+			"uaxis" "[0 1 0 -8] 0.5"
 			"vaxis" "[0 0 -1 9] 0.5"
 			"rotation" "0"
 			"lightmapscale" "32"
@@ -81171,7 +81171,7 @@ entity
 {
 	"id" "3094894"
 	"classname" "trigger_once"
-	"origin" "-6517.99 458 952"
+	"origin" "-6153 836 952"
 	"spawnflags" "16"
 	"StartDisabled" "0"
 	connections
@@ -81184,7 +81184,7 @@ entity
 		side
 		{
 			"id" "156451"
-			"plane" "(-6134 442 1072) (-6902 442 1072) (-6902 474 1072)"
+			"plane" "(-6134 696 1072) (-6172 696 1072) (-6172 976 1072)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 -44] 0.5"
 			"vaxis" "[1 0 0 -8] 0.5"
@@ -81195,7 +81195,7 @@ entity
 		side
 		{
 			"id" "156450"
-			"plane" "(-6134 474 832) (-6902 474 832) (-6902 442 832)"
+			"plane" "(-6134 976 832) (-6172 976 832) (-6172 696 832)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 -44] 0.5"
 			"vaxis" "[1 0 0 -8] 0.5"
@@ -81206,7 +81206,7 @@ entity
 		side
 		{
 			"id" "156449"
-			"plane" "(-6134 442 832) (-6902 442 832) (-6902 442 1072)"
+			"plane" "(-6134 696 832) (-6172 696 832) (-6172 696 1072)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[-1 0 0 8] 0.5"
 			"vaxis" "[0 0 -1 9] 0.5"
@@ -81217,7 +81217,7 @@ entity
 		side
 		{
 			"id" "156448"
-			"plane" "(-6902 474 832) (-6134 474 832) (-6134 474 1072)"
+			"plane" "(-6172 976 832) (-6134 976 832) (-6134 976 1072)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[-1 0 0 8] 0.5"
 			"vaxis" "[0 0 -1 9] 0.5"
@@ -81228,7 +81228,7 @@ entity
 		side
 		{
 			"id" "156447"
-			"plane" "(-6902 442 832) (-6902 474 832) (-6902 474 1072)"
+			"plane" "(-6172 696 832) (-6172 976 832) (-6172 976 1072)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 -44] 0.5"
 			"vaxis" "[0 0 -1 9] 0.5"
@@ -81239,7 +81239,7 @@ entity
 		side
 		{
 			"id" "156446"
-			"plane" "(-6134 474 832) (-6134 442 832) (-6134 442 1072)"
+			"plane" "(-6134 976 832) (-6134 696 832) (-6134 696 1072)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 -44] 0.5"
 			"vaxis" "[0 0 -1 9] 0.5"
@@ -81278,7 +81278,7 @@ entity
 	"maxoffset" "0 0 0"
 	"minoffset" "0 0 0"
 	"NearDistance" "740"
-	"NumAliens" "4"
+	"NumAliens" "16"
 	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
@@ -81313,11 +81313,11 @@ entity
 	"flinchablesp" "1"
 	"freezablesp" "1"
 	"HealthScale" "1"
-	"MaxLiveAliens" "2"
+	"MaxLiveAliens" "4"
 	"maxoffset" "0 0 0"
 	"minoffset" "0 0 0"
 	"NearDistance" "740"
-	"NumAliens" "12"
+	"NumAliens" "30"
 	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
@@ -81357,7 +81357,7 @@ entity
 	"maxoffset" "0 0 0"
 	"minoffset" "0 0 0"
 	"NearDistance" "512"
-	"NumAliens" "4"
+	"NumAliens" "8"
 	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
@@ -86551,48 +86551,6 @@ entity
 }
 entity
 {
-	"id" "3173451"
-	"classname" "asw_spawner"
-	"AlienClass" "9"
-	"AlienOrders" "3"
-	"angles" "0 210 0"
-	"ClearCheck" "1"
-	"DirectorLockTime" "4"
-	"flammablesp" "1"
-	"flinchablesp" "1"
-	"freezablesp" "1"
-	"HealthScale" "1"
-	"InfiniteAliens" "0"
-	"MaxLiveAliens" "1"
-	"maxoffset" "0 0 0"
-	"minoffset" "0 0 0"
-	"MinSkillLevel" "4"
-	"NearDistance" "512"
-	"NumAliens" "1"
-	"sizescalesp" "1.0"
-	"SpawnerState" "1"
-	"spawnflags" "0"
-	"SpawnIfMarinesAreNear" "1"
-	"SpawnInterval" "3"
-	"SpawnIntervalJitter" "25"
-	"SpeedScale" "1"
-	"speedscalesp" "1.0"
-	"StartBurrowed" "1"
-	"targetname" "ins_boomer_spawn"
-	"teslablesp" "1"
-	"UnburrowActivity" "act_roll_512"
-	"UnburrowIdleActivity" "act_roll_idle"
-	"origin" "-6176 816 836"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[16000 -3768]"
-	}
-}
-entity
-{
 	"id" "3173461"
 	"classname" "asw_spawner"
 	"AlienOrders" "3"
@@ -86608,7 +86566,7 @@ entity
 	"maxoffset" "0 0 0"
 	"minoffset" "0 0 0"
 	"NearDistance" "512"
-	"NumAliens" "4"
+	"NumAliens" "8"
 	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
@@ -86652,7 +86610,7 @@ entity
 	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
-	"SpawnIfMarinesAreNear" "1"
+	"SpawnIfMarinesAreNear" "0"
 	"SpawnInterval" "3"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
@@ -86692,7 +86650,7 @@ entity
 	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
-	"SpawnIfMarinesAreNear" "1"
+	"SpawnIfMarinesAreNear" "0"
 	"SpawnInterval" "3"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
@@ -86732,7 +86690,7 @@ entity
 	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
-	"SpawnIfMarinesAreNear" "1"
+	"SpawnIfMarinesAreNear" "0"
 	"SpawnInterval" "3"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
@@ -86907,7 +86865,7 @@ entity
 	"sizescalesp" "1.0"
 	"SpawnerState" "1"
 	"spawnflags" "0"
-	"SpawnIfMarinesAreNear" "1"
+	"SpawnIfMarinesAreNear" "0"
 	"SpawnInterval" "3"
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
@@ -87836,7 +87794,7 @@ entity
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
 	"speedscalesp" "1.0"
-	"StartBurrowed" "1"
+	"StartBurrowed" "0"
 	"targetname" "ins_har_spawn"
 	"teslablesp" "1"
 	"origin" "-5168 2632 832"
@@ -87876,7 +87834,7 @@ entity
 	"SpawnIntervalJitter" "25"
 	"SpeedScale" "1"
 	"speedscalesp" "1.0"
-	"StartBurrowed" "1"
+	"StartBurrowed" "0"
 	"targetname" "ins_har_spawn"
 	"teslablesp" "1"
 	"origin" "-5328 2368 834"
@@ -88247,13 +88205,55 @@ entity
 		"logicalpos" "[0 9000]"
 	}
 }
+entity
+{
+	"id" "3223604"
+	"classname" "asw_spawner"
+	"AlienClass" "9"
+	"AlienOrders" "3"
+	"angles" "0 210 0"
+	"ClearCheck" "1"
+	"DirectorLockTime" "4"
+	"flammablesp" "1"
+	"flinchablesp" "1"
+	"freezablesp" "1"
+	"HealthScale" "1"
+	"InfiniteAliens" "0"
+	"MaxLiveAliens" "1"
+	"maxoffset" "0 0 0"
+	"minoffset" "0 0 0"
+	"MinSkillLevel" "4"
+	"NearDistance" "512"
+	"NumAliens" "1"
+	"sizescalesp" "1.0"
+	"SpawnerState" "1"
+	"spawnflags" "0"
+	"SpawnIfMarinesAreNear" "1"
+	"SpawnInterval" "3"
+	"SpawnIntervalJitter" "25"
+	"SpeedScale" "1"
+	"speedscalesp" "1.0"
+	"StartBurrowed" "1"
+	"targetname" "ins_boomer_spawn"
+	"teslablesp" "1"
+	"UnburrowActivity" "act_roll_512"
+	"UnburrowIdleActivity" "act_roll_idle"
+	"origin" "-6773.71 -87.5992 832"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[16000 -3768]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[14.7966 -254.843 200.737]"
-		"look" "[-198.834 4113.23 -4327.93]"
+		"position" "[-4712.05 6899 886.892]"
+		"look" "[-3959.88 12852.6 -1016.69]"
 	}
 }
 cordons
