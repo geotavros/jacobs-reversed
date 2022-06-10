@@ -1,0 +1,15 @@
+GAME
+{
+	"pos_x"	"-5993"
+	"pos_y"	"-1627"
+	"scale"	"9.3"
+	"material" "vgui/swarm/Overviews/residentialOverview"
+	"briefingmaterial" "vgui/swarm/Overviews/residentialBriefingOverview"
+	"missiontitle"		"Reversed SynTek Residential"
+	"description"	"Orbital scans show a build-up of Swarm biological material within the Residential complex.  Find and Destroy all remaining biological material and eggs in the complex."
+	"image"		"swarm/ObjectivePics/obresidentialbio"
+	"version"		"1"
+	"author"		"Valve"
+	"website"		"https://steamcommunity.com/sharedfiles/filedetails/?id=2201183807"
+	"builtin"		"0"
+}

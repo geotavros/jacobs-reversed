@@ -1,0 +1,15 @@
+GAME
+{
+	"pos_x"	"-9090"
+	"pos_y"	"3731"
+	"scale"	"14.0"
+	"material" "vgui/swarm/Overviews/timorOverview"
+	"briefingmaterial" "vgui/swarm/Overviews/timorBriefingOverview"
+	"missiontitle"		"Reversed Timor Station"
+	"description"	"Disable nuclear warhead and proceede towards Sewer Junction."
+	"image"		"swarm/ObjectivePics/obtimorstationnuke"
+	"version"		"1"
+	"author"		"Valve"
+	"website"		"https://steamcommunity.com/sharedfiles/filedetails/?id=2201183807"
+	"builtin"		"0"
+}
